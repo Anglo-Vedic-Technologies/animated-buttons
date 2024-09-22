@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-background: 36 40 54;
+  }
+  body {
+    background-color: #ced4da;
+  }
+}
+
+@layer utilities {
+  .no-clip {
+    clip-path: inset(100% 0 0 0);
+  }
+}
